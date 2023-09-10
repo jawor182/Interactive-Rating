@@ -1,0 +1,63 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="block">
+          <div class="star"></div>
+          <h1 class="h-text">How did we do?</h1>
+          <p class="p-text">Please let us know how we did with your support request. All feedback is appreciated 
+            to help us improve our offering!</p>
+            <form>
+              <div class="scoreWrapper">
+                <label for="score1">
+                  <input type="radio" id="score1" name="score" value="1"> 1
+                </label>
+                <label for="score2">
+                  <input type="radio" id="score2" name="score" value="2"> 2
+                </label>
+                <label for="score3">
+                  <input type="radio" id="score3" name="score" value="3"> 3
+                </label>
+                <label for="score4">
+                  <input type="radio" id="score4" name="score" value="4"> 4
+                </label>
+                <label for="score5">
+                  <input type="radio" id="score5" name="score" value="5"> 5
+                </label>
+              </div>
+          <input value="SUBMIT" type="submit" class="submitBtn">
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
